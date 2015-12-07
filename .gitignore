@@ -17,6 +17,9 @@ platform.h
 stamp-h1
 *.swp
 TAGS
+*.lo
+*.a
+*.so
 /target.h
 libclamav/c++/autom4te.cache/*
 libclamav/c++/FileCheck
@@ -52,3 +55,5 @@ libclamav/c++/llvmunittest_VMCore
 libclamav/c++/not
 libclamav/c++/tblgen
 libclamav/c++/llvm/tools/llvmc/plugins/Base/Base.td
+build/
+build/*
